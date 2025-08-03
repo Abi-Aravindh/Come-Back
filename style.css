@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----Search Box -----------*/
+.myInput {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5
+}
+
+.myInput:hover,
+.myInput:focus {
+    border: 1px solid #009688;
+    background-color: white;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
+
+/*-------------Middle titles--------------------*/
+#midtit-au {
+    color: #567;
+}
+
+#midtit-au a:hover {
+    color: orange;
+}
+
+#midtit-al {
+    color: white;
+}
+
+#midtit-al a:hover {
+    color: orange;
+}
+
+/*-------Navigation bar-------*/
+#navBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#navBar ul li a:hover {
+    color: red !important;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*----------My slider styling--------*/
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#namehigh {
+    color: white;
+}
+
+#namehigh a:hover {
+    color: orange;
+}
+
+/*-------------------About section----------------------*/
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+#about .btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    padding-top: 20px;
+}
+
+.skills-bar p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    border-radius: 16px;
+}
+
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+/*---------------Alumini List Styling--------------------*/
+#alumini-list {
+    isolation: isolate;
+}
+
+#alumini-list {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(alumini.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alumini-list h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#alumini-list h1::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    color: aqua;
+}
+
+#alutitle a:hover {
+    color: orange;
+}
+
+#alumini-list p {
+    font-size: 14px;
+    margin-top: 14px;
+    color: #ccc;
+}
+
+.services .col-md-3:hover {
+    background: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.list-group-item {
+    background-color: #000000 !important;
+}
+
+.list-group-item-action {
+    color: white;
+}
+
+#list-item-1,
+#list-item-2,
+#list-item-3,
+#list-item-13,
+#list-item-4,
+#list-item-5,
+#list-item-6,
+#list-item-7,
+#list-item-8,
+#list-item-9,
+#list-item-10,
+#list-item-11,
+#list-item-12,
+#list-item-14 {
+    color: orange;
+}
+
+/*------------Alumini Application Styling-----------------*/
+#alu-app h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+}
+
+#alu-app h1:hover {
+    color: orange !important;
+}
+
+#alu-app h1::after {
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#alu-app .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.hw-to-apply {
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.hw-to-apply img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - (60px – 2));
+    border: 10px solid #fff;
+}
+
+.id-card {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.hw-to-apply h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: blue;
+    text-align: center;
+}
+
+#alu-app span {
+    font-size: 12px;
+    color: orange;
+
+}
+
+blockquote {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.hw-to-apply:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*------------------Contact us styling------------------*/
+#contact {
+    isolation: isolate;
+}
+
+#clickhere {
+    color: white;
+}
+
+#clickhere a:hover {
+    color: blue;
+}
+
+
+#contact h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white !important;
+    padding-bottom: 10px;
+}
+
+#contact h1:hover {
+    color: orange !important;
+}
+
+#contact h1::after {
+    content: '';
+    background: white;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#contact {
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(alumini.jpg);
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: lightslategray !important;
+}
+
+.follow {
+    background: white;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-form .fa {
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/*--------------footer--------------------*/
+.cc {
+    padding-top: 10px;
+}
